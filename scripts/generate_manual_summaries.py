@@ -47,7 +47,7 @@ TEXTS: dict[str, tuple[str, str, list[tuple[str, str]]]] = {
             ),
             (
                 "Practical note",
-                "Use official manuals and ethical teachers for depth. Between classes, Light Language Grid Creator (JustBe) is a full visual studio—88 shapes, 144 colours, words/sets/stages, grids, autosave, reminders, PNG export—for daily practice; it is not affiliated with the manual’s publisher.",
+                "Use official manuals and ethical teachers for depth. Between classes, Light Language Grid Creator (JustBe) is a full visual studio—88 shapes, 144 colours, words/sets/stages, grids, autosave, reminders, picture export—for daily practice; it is not affiliated with the manual’s publisher.",
             ),
         ],
     ),
@@ -77,7 +77,7 @@ TEXTS: dict[str, tuple[str, str, list[tuple[str, str]]]] = {
             ),
             (
                 "Hinweis",
-                "Vertiefte Arbeit gehört in offizielle Handbücher und ethische Lehre. Light Language Grid Creator (JustBe) ist ein digitales Trainingsstudio (88 Formen, 144 Farben, Raster, PNG-Export) und nicht mit dem Verlag des Manuals verbunden.",
+                "Vertiefte Arbeit gehört in offizielle Handbücher und ethische Lehre. Light Language Grid Creator (JustBe) ist ein digitales Trainingsstudio (88 Formen, 144 Farben, Raster, Bildexport) und nicht mit dem Verlag des Manuals verbunden.",
             ),
         ],
     ),
@@ -107,7 +107,7 @@ TEXTS: dict[str, tuple[str, str, list[tuple[str, str]]]] = {
             ),
             (
                 "Nota",
-                "Para profundidad, usa manuales oficiales y docentes éticos. Grid Creator es una app creativa aparte (diseño, exportación PNG) y no está afiliada a la editorial del manual.",
+                "Para profundidad, usa manuales oficiales y docentes éticos. Grid Creator es una app creativa aparte (diseño, exportación de imágenes) y no está afiliada a la editorial del manual.",
             ),
         ],
     ),
@@ -137,7 +137,7 @@ TEXTS: dict[str, tuple[str, str, list[tuple[str, str]]]] = {
             ),
             (
                 "Note",
-                "Pour la profondeur, utilisez les manuels officiels et des enseignants éthiques. L’app Grid Creator est un outil créatif séparé (mise en page, export PNG) sans affiliation à l’éditeur du manuel.",
+                "Pour la profondeur, utilisez les manuels officiels et des enseignants éthiques. L’app Grid Creator est un outil créatif séparé (mise en page, export d’images) sans affiliation à l’éditeur du manuel.",
             ),
         ],
     ),
@@ -167,7 +167,7 @@ TEXTS: dict[str, tuple[str, str, list[tuple[str, str]]]] = {
             ),
             (
                 "Nota",
-                "Per approfondire, manuali ufficiali e insegnanti etici. Grid Creator è un’app creativa separata (layout, export PNG) non affiliata all’editore del manuale.",
+                "Per approfondire, manuali ufficiali e insegnanti etici. Grid Creator è un’app creativa separata (layout, esportazione immagini) non affiliata all’editore del manuale.",
             ),
         ],
     ),
@@ -197,7 +197,7 @@ TEXTS: dict[str, tuple[str, str, list[tuple[str, str]]]] = {
             ),
             (
                 "Nota",
-                "Para profundidade, use manuais oficiais e professores éticos. Grid Creator é um app criativo separado (layout, exportação PNG) sem afiliação à editora do manual.",
+                "Para profundidade, use manuais oficiais e professores éticos. Grid Creator é um app criativo separado (layout, exportação de imagens) sem afiliação à editora do manual.",
             ),
         ],
     ),
