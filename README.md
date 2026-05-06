@@ -1,16 +1,16 @@
-# Light Language – Website (SEO-ready)
+# Light Language – Website
 
 This folder contains a **multilingual** static site (English at `/`, plus `de/`, `es/`, `fr/`, `it/`, `pt/`) with shared styling in `assets/`, marketing screenshots in `assets/images/`, **PDF study summaries** in `assets/pdfs/` (generated script: `scripts/generate_manual_summaries.py`; requires `fpdf2`), `sitemap.xml`, and `robots.txt`. Deploy the **entire** `website` folder so paths like `/assets/…` and `/de/` resolve correctly.
 
-## What’s included for SEO
+## Metadata & social previews (built in)
 
-- **Title & meta description** – Good for Google snippets
-- **Keywords** – For search engines
-- **Open Graph tags** – Nice previews when shared on Facebook, LinkedIn, etc.
-- **Twitter Card tags** – Nice previews when shared on Twitter/X
-- **JSON-LD (SoftwareApplication)** – Helps Google understand it’s an app
+- **Title & meta description** – Clear snippets in search results
+- **Keywords** – Optional meta keywords in page head
+- **Open Graph tags** – Previews when shared on Facebook, LinkedIn, etc.
+- **Twitter Card tags** – Previews when shared on Twitter/X
+- **JSON-LD (SoftwareApplication)** – Structured data for the app listing
 - **Semantic HTML** – Header, main, sections, footer
-- **Canonical URL** – Avoids duplicate-content issues
+- **Canonical URL** – One preferred URL per page
 
 ## Before you publish
 
@@ -50,5 +50,5 @@ Same idea: create a project, connect the folder or repo, and deploy. All have fr
 
 ## After publishing
 
-- Submit your site to Google: [Google Search Console](https://search.google.com/search-console) → Add property → your URL.
-- Share the link on social media; Open Graph and Twitter tags will improve how the link looks.
+- Optionally verify the site in [Google Search Console](https://search.google.com/search-console) if you use it.
+- Share the link on social media; Open Graph and Twitter tags control how the preview looks.
