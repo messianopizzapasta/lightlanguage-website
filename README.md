@@ -1,6 +1,6 @@
 # Light Language – Website (SEO-ready)
 
-This folder contains a **multilingual** static site (English at `/`, plus `de/`, `es/`, `fr/`, `it/`, `pt/`) with shared styling in `assets/`, marketing screenshots in `assets/images/`, **one-page PDF study summaries** in `assets/pdfs/` (generated script: `scripts/generate_manual_summaries.py`; requires `fpdf2`), `sitemap.xml`, and `robots.txt`. Deploy the **entire** `website` folder so paths like `/assets/…` and `/de/` resolve correctly.
+This folder contains a **multilingual** static site (English at `/`, plus `de/`, `es/`, `fr/`, `it/`, `pt/`) with shared styling in `assets/`, marketing screenshots in `assets/images/`, **PDF study summaries** in `assets/pdfs/` (generated script: `scripts/generate_manual_summaries.py`; requires `fpdf2`), `sitemap.xml`, and `robots.txt`. Deploy the **entire** `website` folder so paths like `/assets/…` and `/de/` resolve correctly.
 
 ## What’s included for SEO
 
