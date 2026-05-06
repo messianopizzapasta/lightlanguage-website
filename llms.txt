@@ -1,0 +1,31 @@
+# Light Language – apps.justbe.works
+
+> Educational marketing site about “light language” / “language of light” in spirituality and meditation (including themes from the Beginning LL Student Manual, 2014), why it is **not a classical spoken language**, and the **Light Language Grid Creator** app—88 shapes, 144 colours, 90+ words/sets/stages, grids, PNG export—for iPhone, iPad, and Apple Vision ([App Store listing](https://apps.apple.com/us/app/light-language-grid-creator/id6758855353)).
+
+## Pages (human-written guides; not medical advice)
+
+- English (default): https://apps.justbe.works/
+- Deutsch: https://apps.justbe.works/de/
+- Español: https://apps.justbe.works/es/
+- Français: https://apps.justbe.works/fr/
+- Italiano: https://apps.justbe.works/it/
+- Português: https://apps.justbe.works/pt/
+
+## One-page study PDFs (original summaries; not copies of the 2014 manual)
+
+- EN: https://apps.justbe.works/assets/pdfs/beginning-light-language-summary-en.pdf
+- DE: https://apps.justbe.works/assets/pdfs/beginning-light-language-summary-de.pdf
+- ES: https://apps.justbe.works/assets/pdfs/beginning-light-language-summary-es.pdf
+- FR: https://apps.justbe.works/assets/pdfs/beginning-light-language-summary-fr.pdf
+- IT: https://apps.justbe.works/assets/pdfs/beginning-light-language-summary-it.pdf
+- PT: https://apps.justbe.works/assets/pdfs/beginning-light-language-summary-pt.pdf
+
+Regenerate (from this `website` folder): `python3 scripts/generate_manual_summaries.py` (install dependency once: `pip3 install fpdf2`)
+
+## App Store
+
+- https://apps.apple.com/us/app/light-language-grid-creator/id6758855353
+
+## Contact / brand
+
+- Publisher: [JustBe.Works](https://justbe.works)

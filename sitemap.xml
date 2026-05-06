@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://apps.justbe.works/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://apps.justbe.works/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://apps.justbe.works/de/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://apps.justbe.works/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://apps.justbe.works/fr/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://apps.justbe.works/it/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://apps.justbe.works/pt/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://apps.justbe.works/"/>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://apps.justbe.works/de/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://apps.justbe.works/es/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://apps.justbe.works/fr/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://apps.justbe.works/it/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://apps.justbe.works/pt/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://apps.justbe.works/assets/pdfs/beginning-light-language-summary-en.pdf</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://apps.justbe.works/assets/pdfs/beginning-light-language-summary-de.pdf</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://apps.justbe.works/assets/pdfs/beginning-light-language-summary-es.pdf</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://apps.justbe.works/assets/pdfs/beginning-light-language-summary-fr.pdf</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://apps.justbe.works/assets/pdfs/beginning-light-language-summary-it.pdf</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://apps.justbe.works/assets/pdfs/beginning-light-language-summary-pt.pdf</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+</urlset>
