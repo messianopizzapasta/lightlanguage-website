@@ -17,8 +17,10 @@ This folder contains a **multilingual** static site (English at `/`, plus `de/`,
 1. **Replace `YOUR-SITE-URL.com`**  
    In `index.html`, search for `YOUR-SITE-URL.com` and replace with your real domain (e.g. `lightlanguage.app` or your GitHub/Netlify URL).
 
-2. **App Store link**  
-   The App Store link is set to: `https://apps.apple.com/us/app/light-language-grid-creator/id6758855353` (price varies by country; the US listing showed a paid tier at the time of writing).
+2. **App Store links**  
+   - iPhone, iPad, Vision — Light Language Grid Creator: `https://apps.apple.com/us/app/light-language-grid-creator/id6758855353`  
+   - Mac — Light Language Grid Maker: `https://apps.apple.com/us/app/light-language-grid-maker/id6758808761?mt=12`  
+   Prices vary by region.
 
 3. **Optional: App icon for social sharing**  
    Add a file `app-icon.png` (e.g. 512×512 or 1200×630) in this folder and keep the `og:image` / `twitter:image` URLs pointing to it. If you host on GitHub Pages, the full URL is `https://YOUR-USERNAME.github.io/YOUR-REPO/app-icon.png`.

@@ -1,6 +1,6 @@
 # Light Language – apps.justbe.works
 
-> Educational marketing site about “light language” / “language of light” in spirituality and meditation (including themes from the Beginning LL Student Manual, 2014), why it is **not a classical spoken language**, and the **Light Language Grid Creator** app—88 shapes, 144 colours, 90+ words/sets/stages, grids, PNG export—for iPhone, iPad, and Apple Vision ([App Store listing](https://apps.apple.com/us/app/light-language-grid-creator/id6758855353)).
+> Educational site: Light Language as **vibrational, often channeled** communication (sound, speech, writing, movement)—insight from **higher consciousness** or the **soul**, for **healing**, **clearing energy**, and **spiritual opening**, **felt in the heart** more than parsed by the logical mind; plus why it is **not a school-taught language**, themes from the Beginning LL Student Manual (2014), and **Light Language Grid Creator** (88 shapes, 144 colours, grids, PNG export) for iPhone, iPad, and Apple Vision ([App Store](https://apps.apple.com/us/app/light-language-grid-creator/id6758855353)).
 
 ## Pages (human-written guides; not medical advice)
 
@@ -11,7 +11,7 @@
 - Italiano: https://apps.justbe.works/it/
 - Português: https://apps.justbe.works/pt/
 
-## One-page study PDFs (original summaries; not copies of the 2014 manual)
+## One-page study PDFs (introductory themes; not copies of the 2014 manual)
 
 - EN: https://apps.justbe.works/assets/pdfs/beginning-light-language-summary-en.pdf
 - DE: https://apps.justbe.works/assets/pdfs/beginning-light-language-summary-de.pdf
@@ -24,7 +24,8 @@ Regenerate (from this `website` folder): `python3 scripts/generate_manual_summar
 
 ## App Store
 
-- https://apps.apple.com/us/app/light-language-grid-creator/id6758855353
+- iPhone, iPad, Apple Vision — **Light Language Grid Creator**: https://apps.apple.com/us/app/light-language-grid-creator/id6758855353
+- Mac — **Light Language Grid Maker**: https://apps.apple.com/us/app/light-language-grid-maker/id6758808761?mt=12
 
 ## Contact / brand
 

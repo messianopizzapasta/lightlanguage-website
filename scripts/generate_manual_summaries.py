@@ -16,18 +16,11 @@ from pathlib import Path
 from fpdf import FPDF
 from fpdf.enums import XPos, YPos
 
-# macOS universal font for DE/ES/FR/IT/PT
 FONT = "/System/Library/Fonts/Supplemental/Arial Unicode.ttf"
 
 OUT_DIR = Path(__file__).resolve().parent.parent / "assets" / "pdfs"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
-META = (
-    "Independent overview — not a substitute for the full manual (2014) or in-person teaching. "
-    "Light Language Grid Creator (JustBe) is a separate visual studio app."
-)
-
-# Localised label under the schematic shape
 SHAPE_LEGEND: dict[str, str] = {
     "en": "Example: one isometric wireframe shape (grid vocabulary — schematic, not app artwork)",
     "de": "Beispiel: eine isometrische Drahtgitter-Form (Raster-Vokabular — schematisch)",
@@ -37,7 +30,6 @@ SHAPE_LEGEND: dict[str, str] = {
     "pt": "Exemplo: uma forma isométrica em arame (vocabulário da grelha — esquemático)",
 }
 
-# (document title, subtitle, list of (section title, section body))
 TEXTS: dict[str, tuple[str, str, list[tuple[str, str]]]] = {
     "en": (
         "Beginning Light Language (2014)",
@@ -244,10 +236,7 @@ class SummaryPDF(FPDF):
         self.ln(3)
 
     def footer(self) -> None:  # noqa: D102
-        self.set_y(-12)
-        self.set_font("uni", "", 6.5)
-        self.set_text_color(100, 100, 100)
-        self.multi_cell(0, 2.8, META, align="C", new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+        pass
 
     def _cube_vertices_screen(self, cx: float, cy: float, edge_mm: float) -> list[tuple[float, float]]:
         verts = [
@@ -277,7 +266,6 @@ class SummaryPDF(FPDF):
         return out
 
     def draw_shape_panel(self, legend: str) -> None:
-        """Light panel with one isometric wireframe cube (3D shape vocabulary)."""
         x0 = self.l_margin
         w = self.w - self.l_margin - self.r_margin
         y0 = self.get_y()
@@ -331,7 +319,7 @@ def build(code: str) -> Path:
     title, subtitle, sections = TEXTS[code]
     pdf = SummaryPDF(title, subtitle)
     pdf.set_margins(16, 16, 16)
-    pdf.set_auto_page_break(True, margin=14)
+    pdf.set_auto_page_break(True, margin=10)
     pdf.add_font("uni", "", FONT)
     pdf.add_font("uni", "B", FONT)
     pdf.add_page()

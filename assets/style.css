@@ -244,6 +244,14 @@ body {
   margin-bottom: 2.5rem;
 }
 
+.store-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.65rem;
+}
+
 .btn {
   display: inline-flex;
   align-items: center;
@@ -282,6 +290,19 @@ body {
 
 .btn-ghost:hover {
   background: rgba(255, 255, 255, 0.18);
+}
+
+/* Secondary CTA on light cards (e.g. Mac App Store next to iOS) */
+.btn-outline {
+  background: transparent;
+  color: var(--action);
+  border: 2px solid var(--action);
+  box-shadow: none;
+}
+
+.btn-outline:hover {
+  background: rgba(0, 122, 255, 0.08);
+  transform: translateY(-1px);
 }
 
 /* Window-style showcase */
