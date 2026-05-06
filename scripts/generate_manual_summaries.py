@@ -9,7 +9,6 @@ Source material for the author’s study (not embedded in output):
 """
 from __future__ import annotations
 
-import math
 import os
 from pathlib import Path
 
@@ -20,15 +19,6 @@ FONT = "/System/Library/Fonts/Supplemental/Arial Unicode.ttf"
 
 OUT_DIR = Path(__file__).resolve().parent.parent / "assets" / "pdfs"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
-
-SHAPE_LEGEND: dict[str, str] = {
-    "en": "Example: one isometric wireframe shape (grid vocabulary — schematic, not app artwork)",
-    "de": "Beispiel: eine isometrische Drahtgitter-Form (Raster-Vokabular — schematisch)",
-    "es": "Ejemplo: una forma isométrica en alambre (vocabulario de cuadrícula — esquemático)",
-    "fr": "Exemple : une forme filaire isométrique (vocabulaire de grille — schématique)",
-    "it": "Esempio: una forma isometrica a fil di ferro (vocabolario griglia — schematico)",
-    "pt": "Exemplo: uma forma isométrica em arame (vocabulário da grelha — esquemático)",
-}
 
 TEXTS: dict[str, tuple[str, str, list[tuple[str, str]]]] = {
     "en": (
@@ -238,82 +228,6 @@ class SummaryPDF(FPDF):
     def footer(self) -> None:  # noqa: D102
         pass
 
-    def _cube_vertices_screen(self, cx: float, cy: float, edge_mm: float) -> list[tuple[float, float]]:
-        verts = [
-            (0, 0, 0),
-            (1, 0, 0),
-            (1, 1, 0),
-            (0, 1, 0),
-            (0, 0, 1),
-            (1, 0, 1),
-            (1, 1, 1),
-            (0, 1, 1),
-        ]
-        c30 = math.cos(math.radians(30))
-        s30 = math.sin(math.radians(30))
-        s = edge_mm
-
-        def p_local(x: float, y: float, z: float) -> tuple[float, float]:
-            px = (x - y) * c30 * s
-            py = -(x + y) * s30 * s - z * s * 1.22
-            return px, py
-
-        ox, oy = p_local(0.5, 0.5, 0.5)
-        out: list[tuple[float, float]] = []
-        for x, y, z in verts:
-            lx, ly = p_local(x, y, z)
-            out.append((cx + lx - ox, cy + ly - oy))
-        return out
-
-    def draw_shape_panel(self, legend: str) -> None:
-        x0 = self.l_margin
-        w = self.w - self.l_margin - self.r_margin
-        y0 = self.get_y()
-        panel_h = 22.0
-
-        self.set_draw_color(198, 192, 175)
-        self.set_fill_color(252, 250, 246)
-        self.rect(x0, y0, w, panel_h, style="DF")
-
-        cx = x0 + w / 2
-        cy = y0 + panel_h * 0.38
-        verts = self._cube_vertices_screen(cx, cy, edge_mm=6.2)
-        edges = [
-            (0, 1),
-            (1, 2),
-            (2, 3),
-            (3, 0),
-            (4, 5),
-            (5, 6),
-            (6, 7),
-            (7, 4),
-            (0, 4),
-            (1, 5),
-            (2, 6),
-            (3, 7),
-        ]
-        top_face_edges = {frozenset({4, 5}), frozenset({5, 6}), frozenset({6, 7}), frozenset({7, 4})}
-        for a, b in edges:
-            if frozenset((a, b)) in top_face_edges:
-                self.set_draw_color(28, 72, 118)
-                self.set_line_width(0.42)
-            else:
-                self.set_draw_color(140, 148, 165)
-                self.set_line_width(0.28)
-            x1, y1 = verts[a]
-            x2, y2 = verts[b]
-            self.line(x1, y1, x2, y2)
-
-        cap_y = y0 + panel_h - 8.2
-        self.set_xy(x0 + 2.5, cap_y)
-        self.set_font("uni", "", 7.1)
-        self.set_text_color(48, 52, 62)
-        self.multi_cell(
-            w - 5, 3.2, legend, align="C", new_x=XPos.LMARGIN, new_y=YPos.NEXT
-        )
-
-        self.set_xy(self.l_margin, y0 + panel_h + 2.2)
-
 
 def build(code: str) -> Path:
     title, subtitle, sections = TEXTS[code]
@@ -323,8 +237,6 @@ def build(code: str) -> Path:
     pdf.add_font("uni", "", FONT)
     pdf.add_font("uni", "B", FONT)
     pdf.add_page()
-
-    pdf.draw_shape_panel(SHAPE_LEGEND[code])
 
     title_h = 3.9
     body_h = 3.75
