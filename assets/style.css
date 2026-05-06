@@ -579,13 +579,45 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1.25rem;
+  gap: 1.1rem;
   text-align: center;
+}
+
+.footer-logo {
+  display: block;
+  line-height: 0;
+  border-radius: 14px;
+  box-shadow:
+    0 0 0 1px rgba(255, 255, 255, 0.14),
+    0 6px 22px rgba(0, 0, 0, 0.35);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.footer-logo:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    0 0 0 1px rgba(212, 175, 55, 0.35),
+    0 10px 28px rgba(0, 0, 0, 0.4);
+}
+
+.footer-logo:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 4px;
+}
+
+.footer-logo-img {
+  display: block;
+  width: 48px;
+  height: 48px;
+  border-radius: 14px;
+  object-fit: cover;
 }
 
 .footer-brand {
   margin: 0;
-  font-size: 0.95rem;
+  max-width: 26rem;
+  font-size: 0.92rem;
+  line-height: 1.45;
   letter-spacing: 0.01em;
   color: rgba(255, 255, 255, 0.72);
 }
@@ -610,32 +642,37 @@ body {
   text-decoration: none;
 }
 
-.footer-cluster {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 0.45rem 0.5rem;
-  max-width: 52rem;
-  margin: 0;
+.footer-brand a:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
 }
 
-.footer-cluster a {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0.4rem 0.75rem;
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.5rem;
+  margin: 0.15rem 0 0;
+  width: 100%;
+  max-width: 22rem;
+}
+
+.footer-links a {
+  display: block;
+  padding: 0.55rem 0.9rem;
   border-radius: 10px;
-  font-size: 0.82rem;
+  font-size: 0.84rem;
   font-weight: 500;
-  color: rgba(255, 255, 255, 0.88);
+  line-height: 1.35;
+  color: rgba(255, 255, 255, 0.9);
   text-decoration: none;
+  text-align: center;
   background: rgba(255, 255, 255, 0.06);
   border: 1px solid rgba(255, 255, 255, 0.1);
   transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease, transform 0.15s ease;
 }
 
-.footer-cluster a:hover {
+.footer-links a:hover {
   color: var(--gold);
   background: rgba(212, 175, 55, 0.1);
   border-color: rgba(212, 175, 55, 0.35);
@@ -643,71 +680,9 @@ body {
   text-decoration: none;
 }
 
-.footer-cluster a:focus-visible,
-.footer-pdf-langs a:focus-visible,
-.footer-brand a:focus-visible {
+.footer-links a:focus-visible {
   outline: 2px solid var(--gold);
   outline-offset: 2px;
-}
-
-.footer-pdfs {
-  margin: 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 0.5rem 0.65rem;
-  max-width: 48rem;
-  font-size: 0.86rem;
-  color: rgba(255, 255, 255, 0.52);
-}
-
-.footer-pdfs-label {
-  width: 100%;
-  text-align: center;
-  font-size: 0.72rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: rgba(255, 255, 255, 0.42);
-  font-weight: 600;
-}
-
-@media (min-width: 520px) {
-  .footer-pdfs-label {
-    width: auto;
-    text-align: left;
-  }
-}
-
-.footer-pdf-langs {
-  display: inline-flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.35rem;
-}
-
-.footer-pdf-langs a {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 2.35rem;
-  padding: 0.35rem 0.55rem;
-  border-radius: 8px;
-  font-size: 0.78rem;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  color: rgba(255, 255, 255, 0.9);
-  text-decoration: none;
-  background: rgba(255, 255, 255, 0.07);
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
-}
-
-.footer-pdf-langs a:hover {
-  color: var(--gold);
-  background: rgba(212, 175, 55, 0.12);
-  border-color: rgba(212, 175, 55, 0.4);
-  text-decoration: none;
 }
 
 .seo-keywords {
