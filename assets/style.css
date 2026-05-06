@@ -688,17 +688,17 @@ body {
 .footer-legal {
   margin: 0.85rem 0 0;
   padding: 0;
-  font-size: 0.76rem;
-  line-height: 1.5;
-  color: rgba(255, 255, 255, 0.45);
+  font-size: 0.68rem;
+  line-height: 1.45;
+  color: rgba(255, 255, 255, 0.42);
 }
 
 .footer-legal a {
   color: var(--gold);
-  font-weight: 500;
+  font-weight: 400;
   text-decoration: underline;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 0.2em;
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.18em;
   transition: color 0.15s ease;
 }
 
