@@ -415,8 +415,8 @@ body {
   font-size: 0.9rem;
   padding: 0.85rem 1rem;
   background: #f7f5ef;
-  border-left: 4px solid var(--gold);
-  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(0, 0, 0, 0.06);
   color: var(--muted);
 }
 
@@ -572,16 +572,13 @@ body {
   display: none !important;
 }
 
-/* Blocks synced from the English page — distinct tint per locale */
+/* Blocks synced from English — plain text, no accent bar (matches rest of card copy) */
 .locale-parity {
   margin: 0.85rem 0;
-  padding: 0.75rem 1rem;
-  border-radius: var(--radius-md);
-  font-size: 0.98rem;
-  line-height: 1.55;
-  border-left: 4px solid var(--parity-line, #64748b);
-  background: var(--parity-bg, rgba(100, 116, 139, 0.12));
-  color: var(--ink);
+  padding: 0;
+  font-size: inherit;
+  line-height: inherit;
+  color: var(--muted);
 }
 
 .locale-parity p {
@@ -590,29 +587,4 @@ body {
 
 .locale-parity p:last-child {
   margin-bottom: 0;
-}
-
-html[lang="de"] .locale-parity {
-  --parity-line: #4f6ad6;
-  --parity-bg: rgba(79, 106, 214, 0.12);
-}
-
-html[lang="es"] .locale-parity {
-  --parity-line: #0d9488;
-  --parity-bg: rgba(13, 148, 136, 0.12);
-}
-
-html[lang="fr"] .locale-parity {
-  --parity-line: #b45309;
-  --parity-bg: rgba(180, 83, 9, 0.1);
-}
-
-html[lang="it"] .locale-parity {
-  --parity-line: #be185d;
-  --parity-bg: rgba(190, 24, 93, 0.1);
-}
-
-html[lang="pt"] .locale-parity {
-  --parity-line: #7c3aed;
-  --parity-bg: rgba(124, 58, 237, 0.1);
 }
