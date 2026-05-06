@@ -1,6 +1,6 @@
 # Light Language – apps.justbe.works
 
-> Educational site: Light Language as **vibrational, often channeled** communication (sound, speech, writing, movement)—insight from **higher consciousness** or the **soul**, for **healing**, **clearing energy**, and **spiritual opening**, **felt in the heart** more than parsed by the logical mind; plus why it is **not a school-taught language**, themes from the Beginning LL Student Manual (2014), and **Light Language Grid Creator** (88 shapes, 144 colours, grids, picture export) for iPhone, iPad, and Apple Vision ([App Store](https://apps.apple.com/us/app/light-language-grid-creator/id6758855353)).
+> Educational site: Light Language as **vibrational, often channeled** communication (sound, speech, writing, movement)—insight from **higher consciousness** or the **soul**, for **healing**, **clearing energy**, and **spiritual opening**, **felt in the heart** more than parsed by the logical mind; plus why it is **not a school-taught language**, themes from the Beginning LL Student Manual (2014), and **Light Language Grid Creator** (88 shapes, 144 colours, grids, picture export) for iPhone, iPad, and Apple Vision Pro ([App Store](https://apps.apple.com/us/app/light-language-grid-creator/id6758855353)).
 
 Some visitors also explore **Reiki** and energy work; this site’s focus remains **light language**, study PDFs, and **Light Language Grid Creator** (not Reiki instruction).
 
@@ -26,7 +26,7 @@ Regenerate (from this `website` folder): `python3 scripts/generate_manual_summar
 
 ## App Store
 
-- iPhone, iPad, Apple Vision — **Light Language Grid Creator**: https://apps.apple.com/us/app/light-language-grid-creator/id6758855353
+- iPhone, iPad, Apple Vision Pro — **Light Language Grid Creator**: https://apps.apple.com/us/app/light-language-grid-creator/id6758855353
 - Mac — **Light Language Grid Maker**: https://apps.apple.com/us/app/light-language-grid-maker/id6758808761?mt=12
 
 ## Contact / brand
