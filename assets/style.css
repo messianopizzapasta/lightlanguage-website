@@ -427,6 +427,21 @@ body {
   margin-bottom: 0;
 }
 
+/* Lineage acknowledgment: subtle, italic, with a soft left ribbon */
+.lineage-credit {
+  margin: 0 0 1rem;
+  padding: 0.5rem 0 0.5rem 0.85rem;
+  border-left: 3px solid var(--gold, #d9b36c);
+  font-style: italic;
+  color: var(--muted);
+  font-size: 0.98rem;
+  line-height: 1.55;
+}
+
+.card .lineage-credit:last-child {
+  margin-bottom: 0;
+}
+
 /* App feature pills */
 .pill-grid {
   display: flex;
