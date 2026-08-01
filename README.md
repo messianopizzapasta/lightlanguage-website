@@ -1,0 +1,54 @@
+# Light Language – Website
+
+This folder contains a **multilingual** static site (English at `/`, plus `de/`, `es/`, `fr/`, `it/`, `pt/`) with shared styling in `assets/`, marketing screenshots in `assets/images/`, **PDF study summaries** in `assets/pdfs/` (generated script: `scripts/generate_manual_summaries.py`; requires `fpdf2`), `sitemap.xml`, and `robots.txt`. Deploy the **entire** `website` folder so paths like `/assets/…` and `/de/` resolve correctly.
+
+## Metadata & social previews (built in)
+
+- **Title & meta description** – Clear snippets in search results
+- **Keywords** – Optional meta keywords in page head
+- **Open Graph tags** – Previews when shared on Facebook, LinkedIn, etc.
+- **Twitter Card tags** – Previews when shared on Twitter/X
+- **JSON-LD (SoftwareApplication)** – Structured data for the app listing
+- **Semantic HTML** – Header, main, sections, footer
+- **Canonical URL** – One preferred URL per page
+
+## Before you publish
+
+1. **Replace `YOUR-SITE-URL.com`**  
+   In `index.html`, search for `YOUR-SITE-URL.com` and replace with your real domain (e.g. `lightlanguage.app` or your GitHub/Netlify URL).
+
+2. **App Store links**  
+   - iPhone, iPad, Vision — Light Language Grid Creator: `https://apps.apple.com/us/app/light-language-grid-creator/id6758855353`  
+   - Mac — Light Language Grid Maker: `https://apps.apple.com/us/app/light-language-grid-maker/id6758808761?mt=12`  
+   Prices vary by region.
+
+3. **Optional: App icon for social sharing**  
+   Add a file `app-icon.png` (e.g. 512×512 or 1200×630) in this folder and keep the `og:image` / `twitter:image` URLs pointing to it. If you host on GitHub Pages, the full URL is `https://YOUR-USERNAME.github.io/YOUR-REPO/app-icon.png`.
+
+4. **Optional: Developer link**  
+   Replace `YOUR-TEAM-ID` in the footer with your Apple Developer ID or your website URL.
+
+## Deploy for free
+
+### Option A: GitHub Pages
+
+1. Create a new repo (e.g. `lightlanguage-website`).
+2. Upload the contents of this `website` folder (e.g. `index.html` and optional `app-icon.png`).
+3. In the repo: **Settings → Pages** → Source: **Deploy from a branch** → Branch: `main` (or `master`) → folder **/ (root)** → Save.
+4. Your site will be at `https://YOUR-USERNAME.github.io/lightlanguage-website/`.
+5. (Optional) Add a custom domain under **Settings → Pages → Custom domain**.
+
+### Option B: Netlify
+
+1. Go to [netlify.com](https://www.netlify.com) and sign up (free).
+2. Drag and drop this `website` folder onto the Netlify deploy area, or connect a Git repo that contains this folder.
+3. You get a URL like `https://random-name.netlify.app`. You can change it or add a custom domain in **Domain settings**.
+
+### Option C: Vercel / Cloudflare Pages
+
+Same idea: create a project, connect the folder or repo, and deploy. All have free tiers and work well with static HTML.
+
+## After publishing
+
+- Optionally verify the site in [Google Search Console](https://search.google.com/search-console) if you use it.
+- Share the link on social media; Open Graph and Twitter tags control how the preview looks.
