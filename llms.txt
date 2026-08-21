@@ -1,19 +1,19 @@
 # Light Language – lightlanguage.justbe.works
 
-> Educational site: Light Language as **vibrational, often channeled** communication (sound, speech, writing, movement)—insight from **higher consciousness** or the **soul**, for **healing**, **clearing energy**, and **spiritual opening**, **felt in the heart** more than parsed by the logical mind; plus why it is **not a school-taught language**, themes from the Beginning LL Student Manual (2014), and **Light Language Grid Creator** (88 shapes, 144 colours, grids, picture export) for iPhone, iPad, and Apple Vision Pro ([App Store](https://apps.apple.com/us/app/light-language-grid-creator/id6758855353)).
+Site for Light Language Grid Creator (JustBe.Works): coloured light and sacred geometry on Grids, a short PDF from the Beginning teaching, and the app on iPhone, iPad, Apple Vision Pro, and Mac.
 
-Some visitors also explore **Reiki** and energy work; this site’s focus remains **light language**, study PDFs, and **Light Language Grid Creator** (not Reiki instruction).
+Light Language here follows the Starr Fuentes / Mayan-Aztec lineage: coloured light and sacred geometry to make clear messages. With a teacher: a good teacher has an aura that makes understanding easier; it is transferred from his field, not grasped with thought. The app is colour, shape, Grid, export.
 
-## Pages (human-written guides)
+## Pages
 
-- English (default): https://lightlanguage.justbe.works/
+- English: https://lightlanguage.justbe.works/
 - Deutsch: https://lightlanguage.justbe.works/de/
 - Español: https://lightlanguage.justbe.works/es/
 - Français: https://lightlanguage.justbe.works/fr/
 - Italiano: https://lightlanguage.justbe.works/it/
 - Português: https://lightlanguage.justbe.works/pt/
 
-## Study PDFs (introductory themes; not copies of the 2014 manual)
+## PDFs (orientation notes; not copies of the 2014 manual)
 
 - EN: https://lightlanguage.justbe.works/assets/pdfs/beginning-light-language-summary-en.pdf
 - DE: https://lightlanguage.justbe.works/assets/pdfs/beginning-light-language-summary-de.pdf
@@ -22,12 +22,12 @@ Some visitors also explore **Reiki** and energy work; this site’s focus remain
 - IT: https://lightlanguage.justbe.works/assets/pdfs/beginning-light-language-summary-it.pdf
 - PT: https://lightlanguage.justbe.works/assets/pdfs/beginning-light-language-summary-pt.pdf
 
-Regenerate (from this `website` folder): `python3 scripts/generate_manual_summaries.py` (install dependency once: `pip3 install fpdf2`)
+Regenerate (from this `website` folder): `python3 scripts/generate_manual_summaries.py` (once: `pip3 install fpdf2`)
 
 ## App Store
 
-- iPhone, iPad, Apple Vision Pro — **Light Language Grid Creator**: https://apps.apple.com/us/app/light-language-grid-creator/id6758855353
-- Mac — **Light Language Grid Maker**: https://apps.apple.com/us/app/light-language-grid-maker/id6758808761?mt=12
+- iPhone, iPad, Apple Vision Pro — Light Language Grid Creator: https://apps.apple.com/us/app/light-language-grid-creator/id6758855353
+- Mac — Light Language Grid Maker: https://apps.apple.com/us/app/light-language-grid-maker/id6758808761?mt=12
 
 ## Contact / brand
 

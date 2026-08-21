@@ -23,181 +23,181 @@ OUT_DIR.mkdir(parents=True, exist_ok=True)
 TEXTS: dict[str, tuple[str, str, list[tuple[str, str]]]] = {
     "en": (
         "Beginning Light Language (2014)",
-        "Study summary",
+        "A short orientation",
         [
             (
-                "Master the geometry of your reality",
-                "Every thought you hold carries a message that shapes how you meet the world. When intention is clear, it organises attention and choice: you move from only reacting to circumstances toward consciously designing them. Many introductions frame this through resonance and layered subtle “bodies”—philosophical imagery, not medical advice.",
+                "Geometry of reality",
+                "Light Language uses coloured light and sacred geometry to make clear messages. Clear intention organises what you notice and choose. Introductions often talk about resonance and layered subtle bodies — a way of describing the work, not medical advice.",
             ),
             (
-                "Core principles of transformation",
-                "• Your thoughts participate in shaping experience.\n• You are responsible for your choices.\n• As above, so below: shifting subtler layers first is often described as gentler than forcing change only at the densest level.",
+                "A few working points",
+                "• Thoughts take part in experience.\n• You are responsible for your choices.\n• As above, so below: many teachers start with the subtler layers rather than forcing only the dense ones.",
             ),
             (
-                "Sacred geometry — quick reference",
-                "Many paths use geometry and colour as levers for clarity—bringing light into the pattern and loosening what no longer fits.\nCube — stabilisation: holds focus; steadies a quality in place.\nSphere — opening: widens options; invites movement.\nPyramid — integration: sharpens a goal; keeps a fact coherent.\nCylinder — connection: bridges two points; strengthens flow between them.",
+                "Sacred geometry",
+                "Colour and geometry are used as tools, not decoration.\nCube — holds focus; steadies a quality in place.\nSphere — opens; invites movement.\nPyramid — sharpens a goal; keeps a fact coherent.\nCylinder — connects two points; strengthens the flow between them.",
             ),
             (
-                "Colour as frequency",
-                "• Red — vitality, physical movement.\n• Yellow — clarity, focus, active intelligence.\n• Green — balance, renewal, growth tone.\n• Blue — rest, spaciousness, easing congested flow imagery.\n• Purple — wisdom tone; reflective intuition.",
+                "Colour",
+                "• Red — vitality, physical movement.\n• Yellow — clarity, focus.\n• Green — balance, growth.\n• Blue — rest, space.\n• Purple — reflection, intuition.",
             ),
             (
-                "Elevate your frequency",
-                "Much of this work is “caught” in the field of someone who already lives the tones—not only read in a book. Choosing to live by the pattern, rather than against it, supports creating what you truly need. For depth, study with ethical teachers and printed sources you trust.",
+                "How this is learned",
+                "A lot of it is handed down by someone who already lives it — not only read. Work with teachers and printed sources you trust.",
             ),
             (
                 "JustBe.Works",
-                "Independent summary for orientation; not a copy of the Beginning Light Language Student Manual (2014, © Starr Fuentes). Between classes, Light Language Grid Creator is a visual grid studio (shapes, colours, export)—not affiliated with the manual’s publisher.",
+                "Independent notes. Not a copy of the Beginning Light Language Student Manual (2014, © Starr Fuentes). Light Language Grid Creator is a Grid app (shapes, colours, export) — not affiliated with the manual’s publisher.",
             ),
         ],
     ),
     "de": (
         "Beginning Light Language (2014)",
-        "Lernübersicht",
+        "Eine kurze Orientierung",
         [
             (
-                "Die Geometrie deiner Wirklichkeit meistern",
-                "Jeder Gedanke trägt eine Botschaft, die prägt, wie du die Welt triffst. Klare Intention ordnet Aufmerksamkeit und Wahl: du bewegst dich von bloßem Reagieren hin zu bewusstem Gestalten. Viele Einführungen rahmen das über Resonanz und feinere „Körper“-Schichten—philosophisches Bild, kein medizinischer Rat.",
+                "Geometrie der Wirklichkeit",
+                "Lichtsprache arbeitet mit farbigem Licht und heiliger Geometrie — so entstehen klare Botschaften. Klare Absicht ordnet, was du wahrnimmst und wählst. Einführungen sprechen oft von Resonanz und feineren Körperschichten — eine Beschreibung der Arbeit, kein medizinischer Rat.",
             ),
             (
-                "Kernprinzipien der Transformation",
-                "• Gedanken wirken an der Erfahrung mit.\n• Du bist für deine Entscheidungen verantwortlich.\n• Wie oben, so unten: zuerst feinere Schichten zu verändern, wird oft als sanfter beschrieben als nur das Dichte zu erzwingen.",
+                "Ein paar Arbeitsregeln",
+                "• Gedanken wirken an der Erfahrung mit.\n• Du bist für deine Entscheidungen verantwortlich.\n• Wie oben, so unten: viele Lehrer fangen bei den feineren Schichten an, statt nur am Dichten zu ziehen.",
             ),
             (
-                "Heilige Geometrie — Kurzüberblick",
-                "Viele Wege nutzen Geometrie und Farbe als Hebel für Klarheit—Licht ins Muster, lösen, was nicht mehr passt.\nWürfel — Stabilisierung: Fokus halten; eine Qualität an Ort und Stelle halten.\nKugel — Öffnung: Optionen weiten; Bewegung einladen.\nPyramide — Integration: ein Ziel schärfen; einen Sachverhalt kohärent halten.\nZylinder — Verbindung: zwei Punkte überbrücken; den Fluss zwischen ihnen stärken.",
+                "Heilige Geometrie",
+                "Farbe und Geometrie sind Werkzeuge, keine Deko.\nWürfel — hält den Fokus; eine Qualität an Ort und Stelle.\nKugel — öffnet; lädt Bewegung ein.\nPyramide — schärft ein Ziel; hält einen Sachverhalt zusammen.\nZylinder — verbindet zwei Punkte; stärkt den Fluss dazwischen.",
             ),
             (
-                "Farbe als Frequenz",
-                "• Rot — Vitalität, körperliche Bewegung.\n• Gelb — Klarheit, Fokus, aktive Intelligenz.\n• Grün — Balance, Erneuerung, Wachstumston.\n• Blau — Ruhe, Weite, Bilder „verstopften“ Flusses lockern.\n• Violett — Weisheitston; reflektive Intuition.",
+                "Farbe",
+                "• Rot — Vitalität, körperliche Bewegung.\n• Gelb — Klarheit, Fokus.\n• Grün — Balance, Wachstum.\n• Blau — Ruhe, Weite.\n• Violett — Reflexion, Intuition.",
             ),
             (
-                "Frequenz heben",
-                "Viel davon wird „mitgefangen“ im Feld von Menschen, die die Töne schon leben—nicht nur im Buch gelesen. Sich dem Muster zuzuwenden statt dagegen zu arbeiten, unterstützt, zu erschaffen, was du wirklich brauchst. Vertiefung: ethische Lehrpersonen und gedruckte Quellen, denen du vertraust.",
+                "Wie man das lernt",
+                "Vieles wird überliefert — von jemandem, der es schon lebt, nicht nur aus dem Buch. Arbeite mit Lehrern und gedruckten Quellen, denen du vertraust.",
             ),
             (
                 "JustBe.Works",
-                "Unabhängige Kurzfassung zur Orientierung; keine Kopie des Beginning Light Language Student Manual (2014, © Starr Fuentes). Zwischen Workshops: Light Language Grid Creator als visuelles Raster-Studio (Formen, Farben, Export)—nicht verbunden mit dem Verlag des Manuals.",
+                "Eigene Notizen. Keine Kopie des Beginning Light Language Student Manual (2014, © Starr Fuentes). Light Language Grid Creator ist eine Grid-App (Formen, Farben, Export) — nicht verbunden mit dem Verlag des Manuals.",
             ),
         ],
     ),
     "es": (
         "Beginning Light Language (2014)",
-        "Resumen de estudio",
+        "Una orientación breve",
         [
             (
-                "Domina la geometría de tu realidad",
-                "Cada pensamiento lleva un mensaje que moldea cómo te encuentras con el mundo. Cuando la intención es clara, ordena atención y elección: pasas de solo reaccionar a diseñar con más conciencia. Muchas introducciones enmarcan esto con resonancia y cuerpos sutiles en capas—imagen filosófica, no consejo médico.",
+                "Geometría de la realidad",
+                "El lenguaje de luz usa luz de color y geometría sagrada para crear mensajes claros. La intención clara ordena lo que notas y lo que eliges. Las introducciones hablan a menudo de resonancia y cuerpos sutiles — una forma de describir el trabajo, no un consejo médico.",
             ),
             (
-                "Principios centrales de la transformación",
-                "• Los pensamientos participan en dar forma a la experiencia.\n• Eres responsable de tus decisiones.\n• Como es arriba, es abajo: cambiar primero capas más sutiles suele describirse como más amable que forzar solo lo denso.",
+                "Algunos puntos de trabajo",
+                "• Los pensamientos participan en la experiencia.\n• Eres responsable de tus decisiones.\n• Como es arriba, es abajo: muchas maestras empiezan por las capas más sutiles, no solo por lo denso.",
             ),
             (
-                "Geometría sagrada — referencia breve",
-                "Muchos caminos usan geometría y color como palancas de claridad—luz al patrón y soltar lo que ya no encaja.\nCubo — estabilización: mantiene el foco; sostiene una cualidad en su sitio.\nEsfera — apertura: amplía opciones; invita al movimiento.\nPirámide — integración: afina una meta; mantiene un hecho coherente.\nCilindro — conexión: une dos puntos; refuerza el flujo entre ellos.",
+                "Geometría sagrada",
+                "Color y geometría son herramientas, no adorno.\nCubo — sostiene el foco; fija una cualidad.\nEsfera — abre; invita al movimiento.\nPirámide — afina una meta; mantiene un hecho coherente.\nCilindro — une dos puntos; refuerza el flujo entre ellos.",
             ),
             (
-                "Color como frecuencia",
-                "• Rojo — vitalidad, movimiento físico.\n• Amarillo — claridad, foco, inteligencia activa.\n• Verde — equilibrio, renovación, tono de crecimiento.\n• Azul — descanso, amplitud, imaginería de aliviar flujo congestionado.\n• Púrpura — tono de sabiduría; intuición reflexiva.",
+                "Color",
+                "• Rojo — vitalidad, movimiento físico.\n• Amarillo — claridad, foco.\n• Verde — equilibrio, crecimiento.\n• Azul — descanso, espacio.\n• Púrpura — reflexión, intuición.",
             ),
             (
-                "Eleva tu frecuencia",
-                "Mucho de esto se “atrapa” en el campo de quien ya vive los tonos—no solo se lee en un libro. Alinearse con el patrón, en lugar de luchar contra él, ayuda a crear lo que realmente necesitas. Para profundizar: maestros éticos y fuentes impresas de confianza.",
+                "Cómo se aprende",
+                "Gran parte se coge de alguien que ya lo vive — no solo se lee. Trabaja con maestras y fuentes impresas en las que confíes.",
             ),
             (
                 "JustBe.Works",
-                "Resumen independiente para orientación; no es copia del Beginning Light Language Student Manual (2014, © Starr Fuentes). Entre clases, Light Language Grid Creator es un estudio visual en cuadrícula (formas, colores, exportación)—sin afiliación a la editorial del manual.",
+                "Notas propias. No es copia del Beginning Light Language Student Manual (2014, © Starr Fuentes). Light Language Grid Creator es una app de Grid (formas, colores, exportación) — sin afiliación a la editorial del manual.",
             ),
         ],
     ),
     "fr": (
         "Beginning Light Language (2014)",
-        "Résumé d’étude",
+        "Une orientation courte",
         [
             (
-                "Maîtriser la géométrie de votre réalité",
-                "Chaque pensée porte un message qui façonne votre rencontre avec le monde. Quand l’intention est claire, elle organise attention et choix : vous passez de la simple réaction à une mise en forme plus consciente. Beaucoup d’introductions cadreront cela par résonance et « corps » subtils superposés—image philosophique, pas avis médical.",
+                "Géométrie de la réalité",
+                "Le langage de lumière utilise lumière colorée et géométrie sacrée pour créer des messages clairs. L’intention claire organise ce que vous remarquez et ce que vous choisissez. Les introductions parlent souvent de résonance et de corps subtils — une façon de décrire le travail, pas un avis médical.",
             ),
             (
-                "Principes de transformation",
-                "• Les pensées participent à façonner l’expérience.\n• Vous êtes responsable de vos choix.\n• Comme en haut, ainsi en bas : ajuster d’abord les couches fines est souvent présenté comme plus doux que de forcer seulement le dense.",
+                "Quelques points de travail",
+                "• Les pensées participent à l’expérience.\n• Vous êtes responsable de vos choix.\n• Comme en haut, ainsi en bas : beaucoup d’enseignants commencent par les couches plus fines, plutôt que de forcer seulement le dense.",
             ),
             (
-                "Géométrie sacrée — aide-mémoire",
-                "Plusieurs voies utilisent géométrie et couleur comme leviers de clarté—lumière dans le motif, relâcher ce qui ne convient plus.\nCube — stabilisation : fixe l’attention ; ancre une qualité.\nSphère — ouverture : élargit les options ; invite au mouvement.\nPyramide — intégration : affine un but ; garde un fait cohérent.\nCylindre — connexion : relie deux points ; renforce le flux entre eux.",
+                "Géométrie sacrée",
+                "Couleur et géométrie sont des outils, pas du décor.\nCube — tient l’attention ; ancre une qualité.\nSphère — ouvre ; invite au mouvement.\nPyramide — affine un but ; tient un fait cohérent.\nCylindre — relie deux points ; renforce le flux entre eux.",
             ),
             (
-                "Couleur comme fréquence",
-                "• Rouge — vitalité, mouvement physique.\n• Jaune — clarté, focus, intelligence active.\n• Vert — équilibre, renouveau, ton de croissance.\n• Bleu — repos, espace, imagerie d’apaisement de flux encombré.\n• Violet — ton de sagesse ; intuition réflexive.",
+                "Couleur",
+                "• Rouge — vitalité, mouvement physique.\n• Jaune — clarté, focus.\n• Vert — équilibre, croissance.\n• Bleu — repos, espace.\n• Violet — réflexion, intuition.",
             ),
             (
-                "Élevez votre fréquence",
-                "Beaucoup de ce travail se « attrape » dans le champ de personnes qui vivent déjà les tonalités—pas seulement dans un livre. S’aligner sur la loi plutôt que lutter soutient ce dont vous avez vraiment besoin. Pour la profondeur : enseignants éthiques et sources imprimées de confiance.",
+                "Comment on l’apprend",
+                "Une grande part se prend auprès de quelqu’un qui le vit déjà — pas seulement dans un livre. Travaillez avec des enseignants et des sources imprimées auxquels vous faites confiance.",
             ),
             (
                 "JustBe.Works",
-                "Synthèse indépendante pour orientation ; pas une copie du Beginning Light Language Student Manual (2014, © Starr Fuentes). Entre les cours, Light Language Grid Creator est un studio grille visuel (formes, couleurs, export)—sans affiliation à l’éditeur du manuel.",
+                "Notes indépendantes. Pas une copie du Beginning Light Language Student Manual (2014, © Starr Fuentes). Light Language Grid Creator est une app de Grid (formes, couleurs, export) — sans affiliation à l’éditeur du manuel.",
             ),
         ],
     ),
     "it": (
         "Beginning Light Language (2014)",
-        "Riassunto di studio",
+        "Un orientamento breve",
         [
             (
-                "Padroneggia la geometria della tua realtà",
-                "Ogni pensiero porta un messaggio che modella come incontri il mondo. Quando l’intenzione è chiara, organizza attenzione e scelta: passi dal solo reagire a progettare con più coscienza. Molte introduzioni incorniciano tutto con risonanza e corpi sottili stratificati—immagine filosofica, non consiglio medico.",
+                "Geometria della realtà",
+                "La lingua di luce usa luce colorata e geometria sacra per creare messaggi chiari. L’intenzione chiara organizza ciò che noti e ciò che scegli. Le introduzioni parlano spesso di risonanza e corpi sottili — un modo di descrivere il lavoro, non un consiglio medico.",
             ),
             (
-                "Principi della trasformazione",
-                "• I pensieri partecipano a dare forma all’esperienza.\n• Sei responsabile delle tue scelte.\n• Come sopra, così sotto: cambiare prima strati più sottili è spesso descritto come più gentile che forzare solo il denso.",
+                "Alcuni punti di lavoro",
+                "• I pensieri partecipano all’esperienza.\n• Sei responsabile delle tue scelte.\n• Come sopra, così sotto: molti insegnanti partono dagli strati più sottili, non solo dal denso.",
             ),
             (
-                "Geometria sacra — sintesi",
-                "Molti percorsi usano geometria e colore come leve di chiarezza—luce nel motivo, sciogliere ciò che non serve più.\nCubo — stabilizzazione: tiene il fuoco; sostiene una qualità al posto.\nSfera — apertura: allarga le opzioni; invita al movimento.\nPiramide — integrazione: affina un obiettivo; mantiene un fatto coerente.\nCilindro — connessione: collega due punti; rafforza il flusso tra loro.",
+                "Geometria sacra",
+                "Colore e geometria sono strumenti, non decorazione.\nCubo — tiene il fuoco; ferma una qualità.\nSfera — apre; invita al movimento.\nPiramide — affina un obiettivo; tiene insieme un fatto.\nCilindro — collega due punti; rafforza il flusso tra loro.",
             ),
             (
-                "Colore come frequenza",
-                "• Rosso — vitalità, movimento fisico.\n• Giallo — chiarezza, focus, intelligenza attiva.\n• Verde — equilibrio, rinnovo, tono di crescita.\n• Blu — riposo, spazio, immaginario di alleggerire flusso congestionato.\n• Viola — tono di saggezza; intuizione riflessiva.",
+                "Colore",
+                "• Rosso — vitalità, movimento fisico.\n• Giallo — chiarezza, focus.\n• Verde — equilibrio, crescita.\n• Blu — riposo, spazio.\n• Viola — riflessione, intuizione.",
             ),
             (
-                "Alza la frequenza",
-                "Molto di questo lavoro si «prende» nel campo di chi vive già i toni—non solo si legge in un libro. Allinearsi al motivo piuttosto che combatterlo sostiene ciò che davvero ti serve. Per approfondire: insegnanti etici e fonti stampate di fiducia.",
+                "Come si impara",
+                "Gran parte si prende da chi lo vive già — non solo dal libro. Lavora con insegnanti e fonti stampate di cui ti fidi.",
             ),
             (
                 "JustBe.Works",
-                "Riassunto indipendente per orientamento; non è copia del Beginning Light Language Student Manual (2014, © Starr Fuentes). Tra le lezioni, Light Language Grid Creator è uno studio griglia visivo (forme, colori, export)—non affiliato all’editore del manuale.",
+                "Note indipendenti. Non è copia del Beginning Light Language Student Manual (2014, © Starr Fuentes). Light Language Grid Creator è un’app per Grid (forme, colori, export) — non affiliata all’editore del manuale.",
             ),
         ],
     ),
     "pt": (
         "Beginning Light Language (2014)",
-        "Resumo de estudo",
+        "Uma orientação curta",
         [
             (
-                "Domina a geometria da tua realidade",
-                "Cada pensamento traz uma mensagem que molda como encontras o mundo. Quando a intenção é clara, organiza atenção e escolha: passas de apenas reagir a desenhar com mais consciência. Muitas introduções enquadram isto com ressonância e corpos subtis em camadas—imagem filosófica, não conselho médico.",
+                "Geometria da realidade",
+                "Linguagem de luz usa luz colorida e geometria sagrada para criar mensagens claras. A intenção clara organiza o que notas e o que escolhes. As introduções falam muitas vezes de ressonância e corpos subtis — uma forma de descrever o trabalho, não um conselho médico.",
             ),
             (
-                "Princípios centrais da transformação",
-                "• Os pensamentos participam em dar forma à experiência.\n• És responsável pelas tuas escolhas.\n• Como acima, assim abaixo: mudar primeiro camadas mais sutis costuma ser descrito como mais suave do que forçar só o denso.",
+                "Alguns pontos de trabalho",
+                "• Os pensamentos participam na experiência.\n• És responsável pelas tuas escolhas.\n• Como acima, assim abaixo: muitos professores começam pelas camadas mais subtis, em vez de forçar só o denso.",
             ),
             (
-                "Geometria sagrada — referência rápida",
-                "Muitos caminhos usam geometria e cor como alavancas de clareza—luz no padrão, soltar o que já não serve.\nCubo — estabilização: mantém foco; sustém uma qualidade no lugar.\nEsfera — abertura: alarga opções; convida movimento.\nPirâmide — integração: afina um objetivo; mantém um facto coerente.\nCilindro — ligação: une dois pontos; reforça o fluxo entre eles.",
+                "Geometria sagrada",
+                "Cor e geometria são ferramentas, não decoração.\nCubo — segura o foco; firma uma qualidade.\nEsfera — abre; convida movimento.\nPirâmide — afina um objectivo; mantém um facto coerente.\nCilindro — liga dois pontos; reforça o fluxo entre eles.",
             ),
             (
-                "Cor como frequência",
-                "• Vermelho — vitalidade, movimento físico.\n• Amarelo — clareza, foco, inteligência ativa.\n• Verde — equilíbrio, renovação, tom de crescimento.\n• Azul — descanso, amplitude, imagética de aliviar fluxo congestionado.\n• Roxo — tom de sabedoria; intuição reflexiva.",
+                "Cor",
+                "• Vermelho — vitalidade, movimento físico.\n• Amarelo — clareza, foco.\n• Verde — equilíbrio, crescimento.\n• Azul — descanso, espaço.\n• Roxo — reflexão, intuição.",
             ),
             (
-                "Eleva a tua frequência",
-                "Muito disto é «apanhado» no campo de quem já vive os tons—não só lido num livro. Alinhar-te ao padrão, em vez de lutar contra ele, apoia criar o que realmente precisas. Para aprofundar: mestres éticos e fontes impressas de confiança.",
+                "Como se aprende",
+                "Grande parte apanha-se de quem já o vive — não só do livro. Trabalha com professores e fontes impressas em quem confias.",
             ),
             (
                 "JustBe.Works",
-                "Resumo independente para orientação; não é cópia do Beginning Light Language Student Manual (2014, © Starr Fuentes). Entre aulas, Light Language Grid Creator é um estúdio de grelha visual (formas, cores, exportação)—sem filiação à editora do manual.",
+                "Notas independentes. Não é cópia do Beginning Light Language Student Manual (2014, © Starr Fuentes). Light Language Grid Creator é uma app de Grid (formas, cores, exportação) — sem ligação à editora do manual.",
             ),
         ],
     ),
