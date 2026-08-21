@@ -316,6 +316,19 @@ body {
   overflow: hidden;
 }
 
+.showcase.showcase-phone {
+  max-width: 380px;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  overflow: visible;
+}
+
+.showcase.showcase-phone img {
+  border-radius: 28px;
+  box-shadow: 0 28px 64px rgba(0, 0, 0, 0.42);
+}
+
 .showcase-bar {
   display: flex;
   align-items: center;
@@ -495,6 +508,11 @@ body {
   margin-top: 1.25rem;
 }
 
+.gallery.gallery-phones {
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 1.1rem;
+}
+
 .gallery figure {
   margin: 0;
   border-radius: var(--radius-md);
@@ -504,10 +522,22 @@ body {
   box-shadow: var(--shadow-soft);
 }
 
+.gallery.gallery-phones figure {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  overflow: visible;
+}
+
 .gallery img {
   width: 100%;
   height: auto;
   display: block;
+}
+
+.gallery.gallery-phones img {
+  border-radius: 18px;
+  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.18);
 }
 
 .gallery figcaption {
@@ -515,6 +545,12 @@ body {
   font-size: 0.8rem;
   color: var(--muted);
   background: #fafbfd;
+}
+
+.gallery.gallery-phones figcaption {
+  background: transparent;
+  text-align: center;
+  padding: 0.55rem 0.15rem 0;
 }
 
 /* FAQ */

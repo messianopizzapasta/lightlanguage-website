@@ -1,4 +1,4 @@
-# Light Language – apps.justbe.works
+# Light Language – lightlanguage.justbe.works
 
 > Educational site: Light Language as **vibrational, often channeled** communication (sound, speech, writing, movement)—insight from **higher consciousness** or the **soul**, for **healing**, **clearing energy**, and **spiritual opening**, **felt in the heart** more than parsed by the logical mind; plus why it is **not a school-taught language**, themes from the Beginning LL Student Manual (2014), and **Light Language Grid Creator** (88 shapes, 144 colours, grids, picture export) for iPhone, iPad, and Apple Vision Pro ([App Store](https://apps.apple.com/us/app/light-language-grid-creator/id6758855353)).
 
@@ -6,21 +6,21 @@ Some visitors also explore **Reiki** and energy work; this site’s focus remain
 
 ## Pages (human-written guides)
 
-- English (default): https://apps.justbe.works/
-- Deutsch: https://apps.justbe.works/de/
-- Español: https://apps.justbe.works/es/
-- Français: https://apps.justbe.works/fr/
-- Italiano: https://apps.justbe.works/it/
-- Português: https://apps.justbe.works/pt/
+- English (default): https://lightlanguage.justbe.works/
+- Deutsch: https://lightlanguage.justbe.works/de/
+- Español: https://lightlanguage.justbe.works/es/
+- Français: https://lightlanguage.justbe.works/fr/
+- Italiano: https://lightlanguage.justbe.works/it/
+- Português: https://lightlanguage.justbe.works/pt/
 
 ## Study PDFs (introductory themes; not copies of the 2014 manual)
 
-- EN: https://apps.justbe.works/assets/pdfs/beginning-light-language-summary-en.pdf
-- DE: https://apps.justbe.works/assets/pdfs/beginning-light-language-summary-de.pdf
-- ES: https://apps.justbe.works/assets/pdfs/beginning-light-language-summary-es.pdf
-- FR: https://apps.justbe.works/assets/pdfs/beginning-light-language-summary-fr.pdf
-- IT: https://apps.justbe.works/assets/pdfs/beginning-light-language-summary-it.pdf
-- PT: https://apps.justbe.works/assets/pdfs/beginning-light-language-summary-pt.pdf
+- EN: https://lightlanguage.justbe.works/assets/pdfs/beginning-light-language-summary-en.pdf
+- DE: https://lightlanguage.justbe.works/assets/pdfs/beginning-light-language-summary-de.pdf
+- ES: https://lightlanguage.justbe.works/assets/pdfs/beginning-light-language-summary-es.pdf
+- FR: https://lightlanguage.justbe.works/assets/pdfs/beginning-light-language-summary-fr.pdf
+- IT: https://lightlanguage.justbe.works/assets/pdfs/beginning-light-language-summary-it.pdf
+- PT: https://lightlanguage.justbe.works/assets/pdfs/beginning-light-language-summary-pt.pdf
 
 Regenerate (from this `website` folder): `python3 scripts/generate_manual_summaries.py` (install dependency once: `pip3 install fpdf2`)
 

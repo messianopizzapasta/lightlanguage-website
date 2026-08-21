@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://apps.justbe.works/sitemap.xml
+Sitemap: https://lightlanguage.justbe.works/sitemap.xml
