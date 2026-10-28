@@ -1,6 +1,6 @@
 # Light Language – lightlanguage.justbe.works
 
-Site for Light Language Grid Creator (JustBe.Works): coloured light and sacred geometry on Grids, a short PDF from the Beginning teaching, and the app on iPhone, iPad, Apple Vision Pro, and Mac.
+Site for Light Language Grid Creator (JustBe.Works): coloured light and sacred geometry on Grids, a short PDF from the Beginning teaching, and the app on iPhone, iPad, Android, Apple Vision Pro, and Mac.
 
 Light Language here follows the Starr Fuentes / Mayan-Aztec lineage: coloured light and sacred geometry to make clear messages. With a teacher: a good teacher has an aura that makes understanding easier; it is transferred from his field, not grasped with thought. The app is colour, shape, Grid, export.
 
@@ -27,6 +27,7 @@ Regenerate (from this `website` folder): `python3 scripts/generate_manual_summar
 ## App Store
 
 - iPhone, iPad, Apple Vision Pro — Light Language Grid Creator: https://apps.apple.com/us/app/light-language-grid-creator/id6758855353
+- Android — Light Language Grid Creator: https://play.google.com/store/apps/details?id=works.justbe.lightlanguage.creator
 - Mac — Light Language Grid Maker: https://apps.apple.com/us/app/light-language-grid-maker/id6758808761?mt=12
 
 ## Contact / brand
